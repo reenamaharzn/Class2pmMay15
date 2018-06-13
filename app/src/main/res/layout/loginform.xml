@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d61948"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Login Form"
+        android:textColor="#FFF"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/username"
+        style="@style/editTextstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_margin="20dp"
+        android:hint="username "
+        android:inputType="text"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_margin="20dp"
+        android:hint="password "
+        android:inputType="textPassword"
+        android:maxLines="1" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_margin="20dp"
+        android:text="login" />
+
+    <Button
+        android:id="@+id/register"
+        style="@style/btnstyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/login"
+        android:layout_toRightOf="@id/login"
+        android:text="Register" />
+
+    <CheckBox
+        android:id="@+id/rememberme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login"
+        android:layout_margin="20dp"
+        android:text="Remember me" />
+
+    <TextView
+        android:id="@+id/forgetpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rememberme"
+        android:layout_margin="20dp"
+        android:text="forget password" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/rememberme"
+        android:background="@drawable/layerlist"
+        android:src="@drawable/ic_more_vert_black_24dp" />
+</RelativeLayout>

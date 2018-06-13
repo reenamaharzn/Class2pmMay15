@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "281283820266",
+    "firebase_url": "https://class2pmmay15.firebaseio.com",
+    "project_id": "class2pmmay15",
+    "storage_bucket": "class2pmmay15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281283820266:android:0a5d1c35ac97d05c",
+        "android_client_info": {
+          "package_name": "com.example.reena.class2pmmay15"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281283820266-ao8nt76tavkj2vv86gk0eo4846l8h786.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.reena.class2pmmay15",
+            "certificate_hash": "8c90ad82f2eff0638f3260835acfc0554bee1603"
+          }
+        },
+        {
+          "client_id": "281283820266-aq05pup3g0oc90375jbqku67lsravuh7.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "281283820266-aq05pup3g0oc90375jbqku67lsravuh7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPKit6pYny7owRN3_9FBFgRQCGZ6Q1ut4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281283820266-aq05pup3g0oc90375jbqku67lsravuh7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
